@@ -1,0 +1,23 @@
+# EIT Neural Network Training — Python Dependencies
+#
+# Install all dependencies with:
+#     pip install -r requirements.txt
+#
+# Tested on Python 3.10+. For GPU support, install PyTorch separately
+# using the official selector at https://pytorch.org/get-started/locally/
+# (choose your CUDA version). The line below installs the CPU-only build
+# as a fallback; remove or replace it if you have a CUDA-capable GPU.
+
+# --- Core ML ---
+torch>=2.0.0
+optuna>=3.5.0
+
+# --- Data & Math ---
+numpy>=1.24.0
+scipy>=1.10.0
+
+# --- Visualization ---
+matplotlib>=3.7.0
+
+# --- Progress Bar ---
+tqdm>=4.65.0
